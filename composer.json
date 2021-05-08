@@ -16,9 +16,10 @@
         "yiisoft/yii2": "~2.0.0",
         "php": ">=7.2"
     },
-    "autoload": {
-        "psr-4": {
-            "paskuale75\\weather\\": "src"
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
         }
     },
     "repositories": [
@@ -26,5 +27,10 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "paskuale75\\weather\\": "src"
+        }
+    }
 }
