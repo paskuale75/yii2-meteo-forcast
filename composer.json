@@ -1,0 +1,30 @@
+{
+    "name": "paskuale75/yii2-weatherapi",
+    "description": "Yii2 widget displays weather forcast",
+    "keywords": [
+        "yii2",
+        "widget"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Pellicani Pasquale"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "paskuale75\\weather\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
